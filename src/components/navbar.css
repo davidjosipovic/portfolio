@@ -1,0 +1,94 @@
+.navbar{
+    position: fixed;
+    left:3%;
+    width: 90%;
+    border-radius: 1rem;
+    margin: 0.5rem;
+    padding: 0;
+    z-index: 2;
+    transition: top 0.3s;
+    
+}
+.navbar-brand{
+    padding:0;
+    
+}
+.navbar-toggler{
+    padding:0;
+    border: none;
+}
+.navbar-toggler:focus{
+    box-shadow: none;
+}
+.navbar-toggler-icon:hover{
+    filter: invert(63%) sepia(61%) saturate(6400%) hue-rotate(222deg) brightness(97%) contrast(108%);
+}
+
+
+@media (min-width: 576px) { 
+    .navbar-nav{
+        position:absolute;
+        right: 0;
+        padding-right: 0.5rem;
+        font-size: 1.2rem;
+    }
+    .navbar-brand{
+        font-size: 1.5rem;
+    }
+    .navbar{
+        margin-top: 0.2rem;
+       width: 67%;
+       margin-left: 15rem;
+    }
+ }
+
+@media (min-width: 768px) { 
+    .navbar-nav{
+        position:absolute;
+        right: 0;
+        padding-right: 0.5rem;
+        font-size: 1.2rem;
+    }
+    .navbar-brand{
+        font-size: 1.5rem;
+    }
+    .navbar{
+        margin-top: 0.2rem;
+       width: 67%;
+       margin-left: 15rem;
+    }
+ }
+
+@media (min-width: 992px) { 
+    .navbar-nav{
+        position:absolute;
+        right: 0;
+        padding-right: 0.5rem;
+        font-size: 1.2rem;
+    }
+    .navbar-brand{
+        font-size: 1.5rem;
+    }
+    .navbar{
+        margin-top: 0.2rem;
+       width: 67%;
+       margin-left: 15rem;
+    }
+ }
+
+@media (min-width: 1200px) {  
+    .navbar-nav{
+        position:absolute;
+        right: 0;
+        padding-right: 0.5rem;
+        font-size: 1.2rem;
+    }
+    .navbar-brand{
+        font-size: 1.5rem;
+    }
+    .navbar{
+        margin-top: 0.2rem;
+       width: 67%;
+       margin-left: 15rem;
+    }
+}

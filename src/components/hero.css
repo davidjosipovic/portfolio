@@ -1,0 +1,90 @@
+.Hero{
+    
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    margin: 0.5rem;
+    margin-bottom: 2rem;
+}
+
+.HeroText{
+    background-color: #E3E3E3;
+    border-radius: 1rem;
+    height: 18rem;
+    padding: 1rem;
+    margin-top: 2.5rem;
+}
+#ProfilePic{
+    width: 100%;
+    border-radius: 1rem;
+}
+
+
+
+@media (min-width: 576px) { 
+    .Hero{
+        display: flex;
+        flex-direction: row;
+    }
+    .HeroText{
+    width: 60%;
+    margin-top: 2.5rem;
+    height: auto;
+   
+    }
+    .HeroImg{
+        width: 40%;
+        margin-top: 2.5rem;
+    }
+}
+
+@media (min-width: 768px) { 
+    .Hero{
+        display: flex;
+        flex-direction: row;
+    }
+    .HeroText{
+    width: 60%;
+    margin-top: 2.5rem;
+    height: auto;
+   
+    }
+    .HeroImg{
+        width: 40%;
+        margin-top: 2.5rem;
+    }
+}
+
+@media (min-width: 992px) { 
+    .Hero{
+        display: flex;
+        flex-direction: row;
+    }
+    .HeroText{
+    width: 60%;
+    margin-top: 2.5rem;
+    height: auto;
+   
+    }
+    .HeroImg{
+        width: 40%;
+        margin-top: 2.5rem;
+    }
+}
+
+@media (min-width: 1200px) {  
+    .Hero{
+        display: flex;
+        flex-direction: row;
+    }
+    .HeroText{
+    width: 60%;
+    margin-top: 2.5rem;
+    height: auto;
+   
+    }
+    .HeroImg{
+        width: 40%;
+        margin-top: 2.5rem;
+    }
+}
