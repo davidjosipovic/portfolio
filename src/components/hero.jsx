@@ -10,7 +10,7 @@ function Hero() {
             <p>and this is my portfolio.</p>
             <p>I am a CS student based in Croatia who has a strong interest in designing web pages.</p>
         </div>
-        <div className='HeroImg'>
+        <div className=' HeroImg'>
             <img id='ProfilePic' src='./DavidJosipovicProfilePicture.jpg'/>
         </div>
         <div id='about'></div>

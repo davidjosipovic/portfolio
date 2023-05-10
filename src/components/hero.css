@@ -3,39 +3,36 @@
     display: flex;
     flex-direction: column;
     gap: 1em;
-    margin: 0.5rem;
+    margin: 2.5rem;
     margin-bottom: 2rem;
+    
 }
 
 .HeroText{
     background-color: #E3E3E3;
     border-radius: 1rem;
-    height: 18rem;
     padding: 1rem;
-    margin-top: 2.5rem;
+    padding-bottom: 6rem;
+    
+   
 }
 #ProfilePic{
     width: 100%;
     border-radius: 1rem;
+        -moz-box-shadow: 14px 14px 0px 0px rgba(117,107,255,1);
+    box-shadow: 14px 14px 0px 0px rgba(117,107,255,1);
+}
+.HeroImg{
+    
 }
 
 
 
 @media (min-width: 576px) { 
-    .Hero{
-        display: flex;
-        flex-direction: row;
-    }
-    .HeroText{
-    width: 60%;
-    margin-top: 2.5rem;
-    height: auto;
    
-    }
-    .HeroImg{
-        width: 40%;
-        margin-top: 2.5rem;
-    }
+    .HeroText{
+        padding-bottom: 6rem;
+}
 }
 
 @media (min-width: 768px) { 
@@ -43,48 +40,28 @@
         display: flex;
         flex-direction: row;
     }
+
     .HeroText{
     width: 60%;
-    margin-top: 2.5rem;
+    margin-top: 0;
     height: auto;
-   
     }
+
     .HeroImg{
-        width: 40%;
-        margin-top: 2.5rem;
+        width: 50%; 
     }
+
 }
 
 @media (min-width: 992px) { 
-    .Hero{
-        display: flex;
-        flex-direction: row;
-    }
     .HeroText{
-    width: 60%;
-    margin-top: 2.5rem;
-    height: auto;
-   
+        font-size: larger;
     }
     .HeroImg{
-        width: 40%;
-        margin-top: 2.5rem;
+        width: 40%; 
     }
 }
 
 @media (min-width: 1200px) {  
-    .Hero{
-        display: flex;
-        flex-direction: row;
-    }
-    .HeroText{
-    width: 60%;
-    margin-top: 2.5rem;
-    height: auto;
    
-    }
-    .HeroImg{
-        width: 40%;
-        margin-top: 2.5rem;
-    }
 }

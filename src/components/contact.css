@@ -20,15 +20,6 @@
 
 
 @media (min-width: 576px) { 
-    .Contact{
-        width: 50%;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .naslov{
-        margin-left: 25%;
-    }
-  
 }
 
 @media (min-width: 768px) { 
@@ -42,25 +33,10 @@
     }
 }
 
-@media (min-width: 992px) { 
-    .Contact{
-        width: 50%;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .naslov{
-        margin-left: 25%;
-    }
-}
+@media (min-width: 992px) { }
+    
 
 @media (min-width: 1200px) {  
  
-    .Contact{
-        width: 50%;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .naslov{
-        margin-left: 25%;
-    }
+   
 }

@@ -14,7 +14,7 @@ function App() {
       <Hero/>
       <h2 >About me</h2>
       <About/>
-      <h2>Projects</h2>
+      <h2 className='pTitle'>Projects</h2>
       <Projects/>
       <Contact/>
       <Footer/>

@@ -2,10 +2,14 @@
     background-color: #E3E3E3;
     border-radius: 1rem;
     padding: 1rem;
-    margin: 0.5rem;
+    margin: 1.5rem;
     margin-top: 0;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
     height: 25rem;
+    width: 86%;
+    -webkit-box-shadow: 14px 14px 0px 0px rgba(117,107,255,1);
+    -moz-box-shadow: 14px 14px 0px 0px rgba(117,107,255,1);
+    box-shadow: 14px 14px 0px 0px rgba(117,107,255,1);
 }
 .Projects{
     margin-bottom: 3rem;
@@ -13,42 +17,21 @@
 
 
 @media (min-width: 576px) { 
-    .Projects{
-        display: flex;
-        
-    }
-    .Project{
-        width: 50%;
-    }
 }
 
 @media (min-width: 768px) { 
     .Projects{
         display: flex;
-        
+        gap: 1rem;
     }
     .Project{
         width: 50%;
+        
     }
 }
 
 @media (min-width: 992px) { 
-    .Projects{
-        display: flex;
-        
-    }
-    .Project{
-        width: 50%;
-    }
 }
 
 @media (min-width: 1200px) {  
- 
-    .Projects{
-        display: flex;
-        
-    }
-    .Project{
-        width: 50%;
-    }
 }
