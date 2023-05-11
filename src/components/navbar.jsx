@@ -5,7 +5,7 @@ function Navbar() {
   return (
     <nav id='navbar' className="navbar sticky-top navbar-expand-lg navbar-white bg-white">
   <div className="container-fluid">
-    <a className="navbar-brand" href="#">DJ</a>
+    <a className="navbar-brand" href="/">DJ</a>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>

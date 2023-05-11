@@ -3,7 +3,8 @@
     display: flex;
     flex-direction: column;
     gap: 1em;
-    margin: 2.5rem;
+    margin: 1.5rem;
+    margin-top: 0;
     margin-bottom: 2rem;
     
 }
@@ -13,6 +14,8 @@
     border-radius: 1rem;
     padding: 1rem;
     padding-bottom: 6rem;
+    font-size: larger;
+    
     
    
 }
@@ -23,7 +26,7 @@
     box-shadow: 14px 14px 0px 0px rgba(117,107,255,1);
 }
 .HeroImg{
-    
+    width: 96%;
 }
 
 
@@ -42,26 +45,33 @@
     }
 
     .HeroText{
-    width: 60%;
+    width: 55%;
     margin-top: 0;
-    height: auto;
+    padding-bottom: 0;
+
     }
 
     .HeroImg{
-        width: 50%; 
+         width: 45%;
     }
 
 }
 
 @media (min-width: 992px) { 
-    .HeroText{
-        font-size: larger;
-    }
+    
     .HeroImg{
         width: 40%; 
+    }
+    .HeroText{
+        width: 60%;
     }
 }
 
 @media (min-width: 1200px) {  
-   
+    .HeroImg{
+        width: 45%; 
+    }
+    .HeroText{
+        width: 65%;
+    }
 }
