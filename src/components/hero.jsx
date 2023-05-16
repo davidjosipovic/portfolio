@@ -13,7 +13,7 @@ function Hero() {
         </div>
         <div className=' HeroImg'>
         
-            <img id='ProfilePic' src='./DavidJosipovicProfilePicture.jpg'/>
+            <img id='ProfilePic' src='./DavidJosipovicProfilePicture.jpg' alt='Avatar'/>
         </div>
         
     </div>
