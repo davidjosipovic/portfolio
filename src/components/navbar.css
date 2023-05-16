@@ -32,6 +32,10 @@
  }
 
 @media (min-width: 768px) { 
+    
+ }
+
+@media (min-width: 992px) { 
     .navbar-nav{
         position:absolute;
         right: 0;
@@ -41,10 +45,6 @@
     .navbar-brand{
         font-size: 1.5rem;
     }
- }
-
-@media (min-width: 992px) { 
-    
  }
 
 @media (min-width: 1200px) {  

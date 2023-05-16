@@ -21,3 +21,6 @@ h3{
 .purple-light{
    color:#BCB8FF;
 }
+#anchor {
+   scroll-margin-top: 100px;
+ }
