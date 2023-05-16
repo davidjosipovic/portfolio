@@ -14,7 +14,7 @@ function P2() {
 
   return (
     <div className='p2'>
-      <h3>Project 2</h3>
+      <h3>Project 2 <a className='github' href="https://github.com/davidjosipovic/mir-gradjevinarstvo-website" target='_blank'><img src="./github.svg" alt="github" /></a></h3>
       <p>Construction firm website</p>
       <p className='txt'>
         Moj prvi projekt je web stranica za bookiranje apartmana koja prikazuje dostupne apartmane i omogućava korisnicima jednostavno rezerviranje.<br/> Kroz atraktivan dizajn i intuitivno korisničko iskustvo, cilj stranice je olakšati pronalazak i rezervaciju željenog smještaja.

@@ -26,6 +26,9 @@
   margin-bottom: 1rem;
   
 }
+.github{
+  float: right;
+}
 
 
 @media (min-width: 576px) { 
