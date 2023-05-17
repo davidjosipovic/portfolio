@@ -13,9 +13,9 @@ function App() {
     <div className="container">
       <Navbar/>
       <Hero/>
-      <h2 >About me</h2>
+      <h2 >O meni</h2>
       <About/>
-      <h2 className='pTitle'>Projects</h2>
+      <h2 className='pTitle'>Projekti</h2>
       <Projects/>
       <Contact/>
       <Footer/>

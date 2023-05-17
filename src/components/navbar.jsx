@@ -12,16 +12,16 @@ function Navbar() {
     <div className="collapse navbar-collapse" id="navbarNav">
       <ul  className="navbar-nav">
         <li  className="nav-item">
-          <a  href="#about"  class="nav-link " ><span data-bs-toggle="collapse"  data-bs-target=".navbar-collapse.show" >About me</span></a>
+          <a  href="#about"  class="nav-link " ><span data-bs-toggle="collapse"  data-bs-target=".navbar-collapse.show" >O meni</span></a>
         </li>
         <li className="nav-item">
-          <a  class="nav-link" href="#projects"><span data-bs-toggle="collapse"  data-bs-target=".navbar-collapse.show" >Projects</span></a>
+          <a  class="nav-link" href="#projects"><span data-bs-toggle="collapse"  data-bs-target=".navbar-collapse.show" >Projekti</span></a>
         </li>
         <li className ="nav-item">
-          <a  class="nav-link" href="#contact"><span data-bs-toggle="collapse"  data-bs-target=".navbar-collapse.show" >Contact</span></a>
+          <a  class="nav-link" href="#contact"><span data-bs-toggle="collapse"  data-bs-target=".navbar-collapse.show" >Kontakt</span></a>
         </li>
         <li className="nav-item">
-          <a  class="nav-link" href="#a"><span data-bs-toggle="collapse"  data-bs-target=".navbar-collapse.show" >CV</span></a>
+          <a  class="nav-link" href="./CV.pdf" target='_blank' rel="noopener noreferrer"><span data-bs-toggle="collapse"  data-bs-target=".navbar-collapse.show" >CV</span></a>
         </li>
        
       </ul>
