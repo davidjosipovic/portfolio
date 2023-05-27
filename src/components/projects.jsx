@@ -1,5 +1,5 @@
 import './projects.css';
-import { Link } from 'react-router-dom';
+import { Link,Outlet } from 'react-router-dom';
 
 
 function Projects() {
@@ -17,8 +17,9 @@ function Projects() {
             <Link to="/project2"><img id='project2' src="./Mir.png" alt="Mir" /></Link>
         </div>
             
-       
+     <Outlet />  
     </div>
+    
   );
 }
 
