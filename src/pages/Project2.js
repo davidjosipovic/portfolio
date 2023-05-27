@@ -3,7 +3,7 @@ import Navbar from './../components/navbar2';
 import Footer from './../components/footer';
 import P2 from '../components/p2';
 
-function Project2() {
+const Project2=()=> {
   return (
     <div className='Project2'>
     <div className="container">
