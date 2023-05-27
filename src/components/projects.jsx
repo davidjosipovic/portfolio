@@ -9,12 +9,12 @@ function Projects() {
         <div className='Project'>
             <h3>Projekt 1</h3>
             <p>Web stranica za apartmane</p>
-            <Link to="Project1"><img id='project1' src="./Apartman.png" alt="Apartman" /></Link>
+            <Link to="/project1"><img id='project1' src="./Apartman.png" alt="Apartman" /></Link>
         </div>
         <div  className='Project'>
             <h3>Projekt 2</h3>
             <p>Web stranica građevinske firme</p>
-            <Link to="Project2"><img id='project2' src="./Mir.png" alt="Mir" /></Link>
+            <Link to="/project2"><img id='project2' src="./Mir.png" alt="Mir" /></Link>
         </div>
             
        
