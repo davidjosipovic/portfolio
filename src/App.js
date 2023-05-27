@@ -1,26 +1,19 @@
 import './App.css';
-import Navbar from './components/navbar.jsx';
-import Hero from './components/hero.jsx';
-import About from './components/about';
-import Projects from './components/projects';
-import Contact from './components/contact';
-import Footer from './components/footer';
+import Project1 from './pages/Project1';
+import Project2 from './pages/Project2';
+import Home from './pages/Home';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 
 function App() {
   return (
-    <div className='App'>
-    <div className="container">
-      <Navbar/>
-      <Hero/>
-      <h2 >O meni</h2>
-      <About/>
-      <h2 className='pTitle'>Projekti</h2>
-      <Projects/>
-      <Contact/>
-      <Footer/>
-    </div>
-    </div>
+    <BrowserRouter>
+    <Routes>
+        <Route index element={<Home />} />
+        <Route path="project1" element={<Project1 />} />
+        <Route path="project2" element={<Project2 />} />
+    </Routes>
+  </BrowserRouter>
   );
 }
 
