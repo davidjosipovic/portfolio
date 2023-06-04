@@ -3,7 +3,7 @@ import './hero.css';
 
 function Hero() {
   return (
-    <div id='about' className="Hero">
+    <div  className="Hero">
         <div className='HeroText'>
             <h1>Ćao,</h1>
             <h1>Moje ime je <span className='purple'>David</span>,</h1>

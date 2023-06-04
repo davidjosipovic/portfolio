@@ -12,9 +12,9 @@ function Home() {
     <div className="container">
       <Navbar/>
       <Hero/>
-      <h2 >O meni</h2>
+      <h2 id='about'>O meni</h2>
       <About/>
-      <h2 className='pTitle'>Projekti</h2>
+      <h2 id='projects' className='pTitle'>Projekti</h2>
       <Projects/>
       <Contact/>
       <Footer/>
