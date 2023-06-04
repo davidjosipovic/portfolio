@@ -20,6 +20,12 @@
     margin-right: auto;
     width: 180px;
     margin-top: -0.5rem;
+    transition: transform 0.3s ease;
+}
+
+
+#project1:hover{
+    transform: scale(1.05);
 }
 #project2{
     display: block;
@@ -27,6 +33,10 @@
     margin-right: auto;
     width: 270px;
     margin-top: 3rem;
+    transition: transform 0.3s ease;
+}
+#project2:hover{
+    transform: scale(1.05);
 }
 
 @media (min-width: 576px) { 
@@ -52,13 +62,16 @@
         width: 260px;
         
     }
+    
 }
 
 @media (min-width: 992px) { 
     #project1{
-        margin-left: 10rem;
-        width: 210px;
-        margin-top: -4rem;
+       
+
+        margin-left: 7rem;
+        width: 180px;
+        margin-top: -0.5rem;
     }
     #project2{
         width: 370px;
@@ -69,6 +82,8 @@
 @media (min-width: 1200px) {  
     #project1{
         margin-left: 13rem;
+        width: 210px;
+        margin-top: -4rem;
     }
     #project2{
         width: 420px;

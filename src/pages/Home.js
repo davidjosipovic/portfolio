@@ -6,6 +6,8 @@ import Contact from './../components/contact';
 import Footer from './../components/footer';
 
 
+
+
 function Home() {
   return (
     <div className='Home'>
