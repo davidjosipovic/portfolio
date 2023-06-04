@@ -19,6 +19,10 @@
     display: none;
     
   }
+  .projectimg2{
+    border-radius: 2rem;
+    width: 100%;
+  }
   
   .mySlides2.active {
     display:flex;
@@ -30,7 +34,9 @@
   
   
   @media (min-width: 576px) { 
-    
+    .projectimg2{
+      width: 80%;
+    }
   }
   
   @media (min-width: 768px) { 

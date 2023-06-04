@@ -1,8 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import './p1.css';
-import p1image1 from './p1image1.png';
-import p2image2 from './p2image2.png';
-import p3image3 from './p3image3.png';
 
 function P1() {
   const [slideIndex, setSlideIndex] = useState(0);
@@ -24,15 +21,15 @@ function P1() {
       </p>
       <div className='slideshow-container'>
         <div className={`mySlides ${slideIndex === 0 ? 'active' : ''}`}>
-          <img src={p1image1} alt='Slide 1' />
+          <img className='projectimg1' src='./Apartman1.png' alt='Slide 1' />
         </div>
 
         <div className={`mySlides ${slideIndex === 1 ? 'active' : ''}`}>
-          <img src={p2image2} alt='Slide 2' />
+          <img className='projectimg1' src='./Apartman2.png' alt='Slide 2' />
         </div>
 
         <div className={`mySlides ${slideIndex === 2 ? 'active' : ''}`}>
-          <img src={p3image3} alt='Slide 3' />
+          <img className='projectimg1' src='./Apartman3.png' alt='Slide 3' />
         </div>
       </div>
     </div>

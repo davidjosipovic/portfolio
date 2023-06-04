@@ -20,6 +20,10 @@
   
 }
 
+.projectimg1{
+  width: 90%;
+  border-radius: 2rem;
+}
 .mySlides.active {
   display:flex;
   justify-content: center;
@@ -35,6 +39,9 @@
   .mySlides.active {
     height: 30rem;
     
+  }
+  .projectimg1{
+    width: auto;
   }
 }
 

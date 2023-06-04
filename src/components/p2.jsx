@@ -6,7 +6,7 @@ function P2() {
 
   useEffect(() => {
     const interval = setInterval(() => {
-      setSlideIndex((prevIndex) => (prevIndex + 1) % 3);
+      setSlideIndex((prevIndex) => (prevIndex + 1) % 4);
     }, 2000);
 
     return () => clearInterval(interval);
@@ -21,15 +21,19 @@ function P2() {
       </p>
       <div className='slideshow-container'>
         <div className={`mySlides2 ${slideIndex === 0 ? 'active' : ''}`}>
-          <img src='./mir1.png' alt='Slide 1' />
+          <img className='projectimg2' src='./mir1.png' alt='Slide 1' />
         </div>
 
         <div className={`mySlides2 ${slideIndex === 1 ? 'active' : ''}`}>
-          <img src='./mir2.png' alt='Slide 2' />
+          <img className='projectimg2' src='./mir2.png' alt='Slide 2' />
         </div>
 
         <div className={`mySlides2 ${slideIndex === 2 ? 'active' : ''}`}>
-          <img src='./mir3.png' alt='Slide 3' />
+          <img className='projectimg2' src='./mir3.png' alt='Slide 3' />
+        </div>
+
+        <div className={`mySlides2 ${slideIndex === 3 ? 'active' : ''}`}>
+          <img className='projectimg2' src='./mir4.png' alt='Slide 4' />
         </div>
       </div>
     </div>
