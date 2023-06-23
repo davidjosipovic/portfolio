@@ -5,11 +5,10 @@ function Hero() {
   return (
     <div  className="Hero">
         <div className='HeroText'>
-            <h1>Ćao,</h1>
-            <h1>Moje ime je <span className='purple'>David</span>,</h1>
-            <p>i ovo je moj portfolio!</p>
-            <p>Student sam informatike i jako me zanima dizajniranje web stranica.</p>
-            
+        <h1>Hello there,</h1>
+            <h1>My name is <span className='purple'>David</span>,</h1>
+            <p>and this is my portfolio!</p>
+            <p>I am a CS student based in Croatia who has a strong interest in designing web pages.</p>
         </div>
         <div className=' HeroImg'>
         

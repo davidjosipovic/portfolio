@@ -15,9 +15,9 @@ function P2() {
   return (
     <div className='p2'>
       <h3>Projekt 2 <a className='github' href="https://github.com/davidjosipovic/mir-gradjevinarstvo-website" target='_blank' rel="noopener noreferrer"><img src="./github.svg" alt="github" /></a></h3>
-      <p>Web stranica građevinske firme</p>
+      <p>Construction firm website</p>
       <p className='txt'>
-      Moj drugi projekt je statična web stranica za građevinsku firmu, koja predstavlja moje vještine u dizajnu i razvoju web stranica.<br/> Ova stranica pruža informacije o uslugama, referencama i kontaktima građevinske firme. Kroz estetski privlačan dizajn i intuitivnu navigaciju, cilj je privući potencijalne klijente i pružiti im ugodno iskustvo pregledavanja.
+      "My second project is a static website for a construction company, showcasing my skills in web design and development. This website provides information about the services, references, and contacts of the construction company.<br />Through aesthetically appealing design and intuitive navigation, the goal is to attract potential clients and provide them with a pleasant browsing experience."
       </p>
       <div className='slideshow-container'>
         <div className={`mySlides2 ${slideIndex === 0 ? 'active' : ''}`}>
