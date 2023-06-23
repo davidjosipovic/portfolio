@@ -17,7 +17,7 @@ function P1() {
       <h3>Project 1 <a className='github' href="https://github.com/davidjosipovic/apartment-website" target='_blank' rel="noopener noreferrer"><img src="./github.svg" alt="github" /></a></h3>
       <p>Apartments website</p>
       <p className='txt'>
-      "My first project is a website for apartment rentals that displays available apartments and allows users to easily make reservations.<br/> Through an attractive design and intuitive user experience, the goal of the website is to facilitate finding and booking desired accommodations."
+      My first project is a website for apartment rentals that displays available apartments and allows users to easily make reservations.<br/> Through an attractive design and intuitive user experience, the goal of the website is to facilitate finding and booking desired accommodations.
       </p>
       <div className='slideshow-container'>
         <div className={`mySlides ${slideIndex === 0 ? 'active' : ''}`}>

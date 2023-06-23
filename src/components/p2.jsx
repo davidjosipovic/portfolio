@@ -17,7 +17,7 @@ function P2() {
       <h3>Projekt 2 <a className='github' href="https://github.com/davidjosipovic/mir-gradjevinarstvo-website" target='_blank' rel="noopener noreferrer"><img src="./github.svg" alt="github" /></a></h3>
       <p>Construction firm website</p>
       <p className='txt'>
-      "My second project is a static website for a construction company, showcasing my skills in web design and development. This website provides information about the services, references, and contacts of the construction company.<br />Through aesthetically appealing design and intuitive navigation, the goal is to attract potential clients and provide them with a pleasant browsing experience."
+      My second project is a static website for a construction company, showcasing my skills in web design and development. This website provides information about the services, references, and contacts of the construction company.<br />Through aesthetically appealing design and intuitive navigation, the goal is to attract potential clients and provide them with a pleasant browsing experience.
       </p>
       <div className='slideshow-container'>
         <div className={`mySlides2 ${slideIndex === 0 ? 'active' : ''}`}>
