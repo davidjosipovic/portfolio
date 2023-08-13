@@ -14,10 +14,10 @@ function P1() {
 
   return (
     <div className='p1'>
-      <h3>Projekt 1 <a className='github' href="https://github.com/davidjosipovic/apartment-website" target='_blank' rel="noopener noreferrer"><img src="./github.svg" alt="github" /></a></h3>
-      <p>Web stranica za apartmane</p>
+      <h3>Project 1 <a className='github' href="https://github.com/davidjosipovic/apartment-website" target='_blank' rel="noopener noreferrer"><img src="./github.svg" alt="github" /></a></h3>
+      <p>Apartments website</p>
       <p className='txt'>
-        Moj prvi projekt je web stranica za iznajmljivanje apartmana koja prikazuje dostupne apartmane i omogućava korisnicima jednostavno rezerviranje.<br/> Kroz atraktivan dizajn i intuitivno korisničko iskustvo, cilj stranice je olakšati pronalazak i rezervaciju željenog smještaja.
+      My first project is a website for apartment rentals that displays available apartments and allows users to easily make reservations.<br/> Through an attractive design and intuitive user experience, the goal of the website is to facilitate finding and booking desired accommodations.
       </p>
       <div className='slideshow-container'>
         <div className={`mySlides ${slideIndex === 0 ? 'active' : ''}`}>

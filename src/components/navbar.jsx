@@ -20,13 +20,13 @@ function Navbar() {
     <div className="collapse navbar-collapse" id="navbarNav">
       <ul  className="navbar-nav">
         <li  className="nav-item">
-        <HashLink scroll={el => scrollWithOffset(el)} smooth to="#about" class="nav-link "> <span data-bs-toggle="collapse"  data-bs-target=".navbar-collapse.show" >O meni</span></HashLink>
+        <HashLink scroll={el => scrollWithOffset(el)} smooth to="#about" class="nav-link "> <span data-bs-toggle="collapse"  data-bs-target=".navbar-collapse.show" >About me</span></HashLink>
         </li>
         <li className="nav-item">
-        <HashLink scroll={el => scrollWithOffset(el)} smooth to="#projects" class="nav-link "><span data-bs-toggle="collapse"  data-bs-target=".navbar-collapse.show" >Projekti</span></HashLink>
+        <HashLink scroll={el => scrollWithOffset(el)} smooth to="#projects" class="nav-link "><span data-bs-toggle="collapse"  data-bs-target=".navbar-collapse.show" >Projects</span></HashLink>
         </li>
         <li className ="nav-item">
-        <HashLink scroll={el => scrollWithOffset(el)} smooth to="#contact" class="nav-link "><span data-bs-toggle="collapse"  data-bs-target=".navbar-collapse.show" >Kontakt</span></HashLink>
+        <HashLink scroll={el => scrollWithOffset(el)} smooth to="#contact" class="nav-link "><span data-bs-toggle="collapse"  data-bs-target=".navbar-collapse.show" >Contact</span></HashLink>
         </li>
         <li className="nav-item">
           <a  class="nav-link" href="./CV.pdf" target='_blank' rel="noopener noreferrer"><span data-bs-toggle="collapse"  data-bs-target=".navbar-collapse.show" >CV</span></a>
