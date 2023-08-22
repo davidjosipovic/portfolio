@@ -1,4 +1,3 @@
-
 function Footer() {
   return (
     <div className="Footer" style={{textAlign:"center",padding:"1rem",opacity:"80%"}}>
@@ -6,5 +5,4 @@ function Footer() {
     </div>
   );
 }
-
 export default Footer;
