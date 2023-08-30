@@ -11,6 +11,7 @@ function P1() {
   }, []);
   return (
     <div className='p1'>
+      
       <h3>Project 1 <a className='github' href="https://github.com/davidjosipovic/apartment-website" target='_blank' rel="noopener noreferrer"><img src="./github.svg" alt="github" /></a></h3>
       <p>Apartments website</p>
       <p className='txt'>
