@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import './p1.css';
 
+
 function P1() {
   const [slideIndex, setSlideIndex] = useState(0);
   useEffect(() => {
