@@ -5,9 +5,6 @@ import Projects from './../components/projects';
 import Contact from './../components/contact';
 import Footer from './../components/footer';
 
-
-
-
 function Home() {
   return (
     <div className='Home'>
@@ -24,5 +21,4 @@ function Home() {
     </div>
   );
 }
-
 export default Home;

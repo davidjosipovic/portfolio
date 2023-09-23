@@ -13,5 +13,4 @@ const Project1=()=> {
     </div>
   );
 }
-
 export default Project1;
