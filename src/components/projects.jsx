@@ -1,7 +1,5 @@
 import './projects.css';
 import { Link,Outlet } from 'react-router-dom';
-
-
 function Projects() {
   return (
    
@@ -16,7 +14,6 @@ function Projects() {
             <p>Construction firm website</p>
             <Link to="/project2"><img id='project2' src="./Mir.png" alt="Mir" /></Link>
         </div>
-            
      <Outlet />  
     </div>
     
