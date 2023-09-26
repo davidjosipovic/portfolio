@@ -2,7 +2,6 @@ import './projects.css';
 import { Link,Outlet } from 'react-router-dom';
 function Projects() {
   return (
-   
     <div  className="Projects">
         <div className='Project'>
             <h3>Project 1</h3>
