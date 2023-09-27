@@ -15,6 +15,8 @@ function Projects() {
         </div>
      <Outlet />  
     </div>
+
+    
     
   );
 }
