@@ -16,9 +16,6 @@ function Projects() {
      <Outlet />  
     </div>
 
-
-
-
     
   );
 }
