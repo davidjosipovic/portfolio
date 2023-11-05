@@ -11,6 +11,15 @@
     -moz-box-shadow: 14px 14px 0px 0px rgba(117,107,255,1);
     box-shadow: 14px 14px 0px 0px rgba(117,107,255,1);
 }
+.flex{
+    display: flex;
+}
+.gh{
+    width: 2rem;
+    padding-left: 5px;
+}
+
+
 .Projects{
     margin-bottom: 3rem;
 }
@@ -18,8 +27,8 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 180px;
-    margin-top: -0.5rem;
+    width: 250px;
+    margin-top: 3rem;
     transition: transform 0.3s ease;
 }
 
@@ -42,6 +51,11 @@
 @media (min-width: 576px) { 
     #project2{
         
+        width: 350px;
+        
+    }
+    #project1{
+        
         width: 320px;
         
     }
@@ -62,16 +76,18 @@
         width: 260px;
         
     }
+    #project1{
+        
+        width: 240px;
+        
+    }
     
 }
 
 @media (min-width: 992px) { 
     #project1{
-       
-
-        margin-left: 7rem;
-        width: 180px;
-        margin-top: -0.5rem;
+        width: 330px;
+        margin-top: 3rem;
     }
     #project2{
         width: 370px;
@@ -81,9 +97,8 @@
 
 @media (min-width: 1200px) {  
     #project1{
-        margin-left: 13rem;
-        width: 210px;
-        margin-top: -4rem;
+        width: 380px;
+        margin-top: 1.5rem;
     }
     #project2{
         width: 420px;
@@ -92,7 +107,8 @@
 }
 @media (min-width: 1400px) {  
     #project1{
-        margin-left: 16rem;
+        width: 380px;
+        margin-top: 1.5rem;
     }
     #project2{
         width: 420px;

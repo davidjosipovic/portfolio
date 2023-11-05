@@ -2,18 +2,27 @@ import './projects.css';
 import { Link } from 'react-router-dom';
 function Projects() {
   return (
-    <div  className="Projects">
-        <div className='Project'>
-            <h3>Project 1</h3>
-            <p>Apartments website</p>
-            <Link to="/"><img id='project1' src="./Apartman.png" alt="Apartman" /></Link>
+    <div className="Projects">
+      <div className='Project'>
+        <div className='flex'>
+          <h3>Project 1</h3>
+          <a  href="https://github.com/davidjosipovic/myGameList" target='_blank' rel="noopener noreferrer"><img className='gh' src="./github.svg" alt="github" /></a>
         </div>
-        <div  className='Project'>
-            <h3>Project 2</h3>
-            <p>Construction firm website</p>
-            <Link to="/"><img id='project2' src="./Mir.png" alt="Mir" /></Link>
+        <p>myGameList website</p>
+        <a href="https://mygamelistdj.vercel.app/" target='_blank' rel="noopener noreferrer"><img id='project1' src="./myGameList.png" alt="Apartman" /></a>
+
+
+
+      </div>
+      <div className='Project'>
+        <div className='flex'>
+          <h3>Project 2</h3>
+          <a  href="https://github.com/davidjosipovic/mir-v2" target='_blank' rel="noopener noreferrer"><img className='gh' src="./github.svg" alt="github" /></a>
         </div>
-   
+        <p>Construction firm website</p>
+        <a href="https://www.mirgradjevinarstvo.com/" target='_blank' rel="noopener noreferrer"><img id='project2' src="./Mir.png" alt="Mir" /></a>
+      </div>
+
     </div>
   );
 }

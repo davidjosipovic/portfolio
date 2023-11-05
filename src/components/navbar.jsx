@@ -28,9 +28,6 @@ function Navbar() {
         <li className ="nav-item">
         <HashLink scroll={el => scrollWithOffset(el)} smooth to="#contact" class="nav-link "><span data-bs-toggle="collapse"  data-bs-target=".navbar-collapse.show" >Contact</span></HashLink>
         </li>
-        <li className="nav-item">
-          <a  class="nav-link" href="./CV.pdf" target='_blank' rel="noopener noreferrer"><span data-bs-toggle="collapse"  data-bs-target=".navbar-collapse.show" >CV</span></a>
-        </li>
        
       </ul>
     </div>
