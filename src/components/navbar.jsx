@@ -5,10 +5,6 @@ const scrollWithOffset = (el) => {
   const yOffset = -200; 
   window.scrollTo({ top: yCoordinate + yOffset, behavior: 'smooth' }); 
 }
-
-
-
-
 function Navbar() {
   return (
     <nav id='navbar' className="navbar sticky-top navbar-expand-lg navbar-white bg-white">
