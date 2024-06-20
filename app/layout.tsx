@@ -1,9 +1,10 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Rock_Salt,Open_Sans } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/navbar";
 
-const inter = Inter({ subsets: ["latin"] });
+const open_sans = Open_Sans({ subsets: ["latin"] ,});
+export const rock_salt=Rock_Salt({weight:'400',subsets:["latin"]})
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -16,9 +17,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className={open_sans.className}>
+      <body >
       <Navbar/>
-      <body className={inter.className}>{children}</body>
+        {children}
+        </body>
     </html>
   );
 }
