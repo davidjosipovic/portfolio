@@ -4,13 +4,13 @@ import Projects from "@/components/projects";
 import Contact from "@/components/contact";
 export default function Home() {
   return (
-    <div className="mt-8">
+    <div className="">
 
       <Hero/>
       <About/>
       <Projects/>
       <Contact/>
-
+    
     </div>
   );
 }
