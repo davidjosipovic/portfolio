@@ -1,4 +1,4 @@
-import { rock_salt } from "@/app/layout";
+import { rock_salt } from "@/app/font";
 
 export default function Hero() {
     return (

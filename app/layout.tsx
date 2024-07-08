@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
-import { Rock_Salt,Open_Sans } from "next/font/google";
+import { open_sans } from "./font";
+
 import "./globals.css";
 import Navbar from "@/components/navbar";
 
-const open_sans = Open_Sans({ subsets: ["latin"] ,});
-export const rock_salt=Rock_Salt({weight:'400',subsets:["latin"]})
+
 
 export const metadata: Metadata = {
   title: "Create Next App",
