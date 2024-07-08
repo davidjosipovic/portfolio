@@ -1,7 +1,7 @@
 'use client'
 import { useState } from 'react';
 import Image from 'next/image';
-import styles from './About.module.css'; // Import the CSS module
+import styles from './about.module.css'; // Import the CSS module
 
 export default function About() {
   const [rotate, setRotate] = useState(false);
