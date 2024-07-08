@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { rock_salt } from "@/app/layout";
+import { rock_salt } from "@/app/font";
 export default function Contact() {
   return (
     <section className=" text-center fixed z-0 bottom-0">
