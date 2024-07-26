@@ -18,7 +18,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={open_sans.className}>
-      <body className="bg-gray-500" >
+      <body className="bg-dark-blue" >
       <Navbar/>
         {children}
         </body>
