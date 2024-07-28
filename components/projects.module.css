@@ -1,0 +1,73 @@
+.flipContainer {
+    perspective: 1000px;
+    width: 100%;
+    height: 200px; /* Ensure a fixed height for the container */
+    margin: 0 auto;
+}
+
+.flipper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+}
+
+.front, .back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 1rem;
+}
+
+.front {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.back {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transform: rotateY(180deg);
+    position: relative; /* Ensure children are positioned relative to this div */
+}
+
+.back .img {
+    width: 100%;
+    height: 100%;
+    border-radius: 1rem;
+    object-fit: cover;
+}
+
+.back p {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.flipped .flipper {
+    transform: rotateY(180deg);
+}
+
+.back .text-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.back .mt-4 {
+    margin-top: 1rem;
+}
+
+.back a {
+    color: white;
+    font-size: 1rem;
+    text-decoration: underline;
+}

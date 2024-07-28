@@ -44,8 +44,8 @@ export default function About() {
         <div className="relative ml-auto mr-auto xl:w-2/5 xl:h-2/5  ">
           <Image
             src="/tech_circle.png"
-            height={500}
-            width={500}
+            height={800}
+            width={800}
             alt="Tech Circle"
             className={`w-full h-full ${rotate ? styles.rotate : ""}`} // Apply the rotation class conditionally
           />
