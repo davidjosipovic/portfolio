@@ -9,6 +9,9 @@ export default function Projects() {
 
   const handleFlip = (index: number) => {
     setFlippedIndex((prevIndex) => (prevIndex === index ? null : index));
+    
+      
+    
   };
 
   const handleClickOutside = (event: MouseEvent) => {
@@ -34,15 +37,15 @@ export default function Projects() {
   ];
 
   const projectLinks = [
-    { github: "https://github.com/myGameList", live: "https://mygamelist.com" },
-    { github: "https://github.com/GermanSyllableSplitter", live: "https://germansyllablesplitter.com" },
+    { github: "https://github.com/davidjosipovic/myGameList", live: "https://mygamelistdj.vercel.app" },
+    { github: "https://github.com/davidjosipovic/german-syllable-splitter", live: "https://german-syllable-splitter.vercel.app" },
     { github: "https://github.com/NoProject", live: "#" }
   ];
 
   return (
     <section className="px-12 py-20 z-10 relative mb-[500px] bg-light-blue">
       <div className="container mx-auto">
-        <h1 id="projects" className="text-4xl text-dark-blue font-bold leading-normal pb-4 sm:text-center">
+        <h1 id="projects" className="text-4xl text-dark-blue font-bold leading-normal pb-4 text-center">
           my projects
         </h1>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:items-center">
@@ -50,7 +53,7 @@ export default function Projects() {
             <div 
               key={index} 
               ref={(el:any) => (containerRefs.current[index] = el)}
-              className={`${styles.flipContainer} ${flippedIndex === index ? styles.flipped : ''}`} 
+              className={`${styles.flipContainer} ${flippedIndex === index ? (index === 2 ? styles.flipped360 : styles.flipped) : ''} max-w-xs md:max-w-sm lg:max-w-md`} 
               onClick={() => handleFlip(index)}
             >
               <div className={styles.flipper}>
@@ -72,10 +75,26 @@ export default function Projects() {
                       alt="Back of Card"
                       className="rounded-2xl"
                     />
-                    <p className="text-white text-center text-2xl">{backTexts[index]}</p>
+                    <p className="text-white text-center text-md md:text-xl xl:text-2xl">{backTexts[index]}</p>
                     <div className="text-center">
-                      <a href={projectLinks[index].github} target="_blank" className="text-blue-500 underline mr-2 absolute left-20 top-20">GitHub</a>
-                      <a href={projectLinks[index].live} target="_blank" className="text-blue-500 underline absolute right-20 top-20">Live Demo</a>
+                      <a href={projectLinks[index].github} target="_blank" className="mr-2 absolute left-12 xl:left-16 bottom-4 flex md:bottom-8">
+                        <Image 
+                          src="/github-mark-white.svg" 
+                          alt="GitHub" 
+                          width={40} 
+                          height={40} 
+                          className="inline-block md:scale-125 xl:scale-150 opacity-50 hover:opacity-100 active:opacity-100"
+                        />
+                      </a>
+                      <a href={projectLinks[index].live} target="_blank" className="absolute right-12 xl:right-16 bottom-4 md:bottom-8 ">
+                      <Image 
+                          src="/live.svg" 
+                          alt="Live" 
+                          width={40} 
+                          height={40} 
+                          className="inline-block md:scale-125 xl:scale-150 opacity-50 hover:opacity-100 active:opacity-100"
+                        />
+                      </a>
                     </div>
                   </div>
                 </div>

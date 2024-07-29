@@ -2,6 +2,7 @@
 import { useState } from "react";
 import { rock_salt } from "@/app/font";
 import { Link, animateScroll as scroll } from "react-scroll";
+import Linknext from "next/link";
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -51,7 +52,7 @@ export default function Navbar() {
         </button>
       </div>
       <ul
-        className={`flex-col md:flex md:flex-row md:gap-4 absolute md:static top-12 left-0 w-full md:w-auto bg-dark-blue md:bg-transparent ${
+        className={`flex-col md:flex md:flex-row md:gap-4 absolute md:static pr-8 top-12 right-0 w-full md:w-auto bg-dark-blue md:bg-transparent  text-right ${
           menuOpen ? "block" : "hidden"
         }`}
       >
@@ -61,7 +62,7 @@ export default function Navbar() {
             smooth={true}
             duration={500}
             offset={-100} // Adjust this value as needed
-            className="cursor-pointer md:p-2 rounded-2xl hover:text-dark-blue hover:bg-light-blue transition duration-300 ease-in-out delay-50"
+            className="cursor-pointer p-2 rounded-2xl hover:text-dark-blue hover:bg-light-blue transition duration-300 ease-in-out delay-50"
             onClick={() => setMenuOpen(false)}
           >
             About
@@ -73,7 +74,7 @@ export default function Navbar() {
             smooth={true}
             duration={500}
             offset={-100} // Adjust this value as needed
-            className="cursor-pointer md:p-2 rounded-2xl hover:text-dark-blue hover:bg-light-blue transition duration-300 ease-in-out delay-50"
+            className="cursor-pointer p-2 rounded-2xl hover:text-dark-blue hover:bg-light-blue transition duration-300 ease-in-out delay-50"
             onClick={() => setMenuOpen(false)}
           >
             Projects
@@ -85,20 +86,20 @@ export default function Navbar() {
             smooth={true}
             duration={500}
             offset={2000} // Adjust this value as needed
-            className="cursor-pointer md:p-2 rounded-2xl hover:text-dark-blue hover:bg-light-blue transition duration-300 ease-in-out delay-50"
+            className="cursor-pointer p-2 rounded-2xl hover:text-dark-blue hover:bg-light-blue transition duration-300 ease-in-out delay-50"
             onClick={() => setMenuOpen(false)}
           >
             Contact
           </Link>
         </li>
         <li className="p-4 md:p-0">
-          <Link
-            to="contact"
-            className="cursor-pointer md:p-2 rounded-2xl hover:text-dark-blue hover:bg-light-blue transition duration-300 ease-in-out delay-50"
+          <Linknext
+            href="/CV.pdf"
+            className="cursor-pointer p-2 rounded-2xl hover:text-dark-blue hover:bg-light-blue transition duration-300 ease-in-out delay-50"
             onClick={() => setMenuOpen(false)}
           >
             Resume
-          </Link>
+          </Linknext>
         </li>
       </ul>
     </nav>
