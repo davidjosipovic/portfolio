@@ -1,17 +1,19 @@
 'use client';
 import { useState, useEffect, useRef } from "react";
 import Image from "next/image";
-import styles from './projects.module.css'; // Ensure this CSS module file is created
+import styles from './projects.module.css';
 
 export default function Projects() {
   const [flippedIndex, setFlippedIndex] = useState<number | null>(null);
+  const [flipped, setFlipped] = useState<boolean>(false);
   const containerRefs = useRef<(HTMLDivElement | null)[]>([]);
 
   const handleFlip = (index: number) => {
-    setFlippedIndex((prevIndex) => (prevIndex === index ? null : index));
-    
-      
-    
+    if (index !== 2) {
+      setFlippedIndex(prevIndex => (prevIndex === index ? null : index));
+    } else {
+      setFlipped(prevFlipped => !prevFlipped);
+    }
   };
 
   const handleClickOutside = (event: MouseEvent) => {
@@ -53,7 +55,7 @@ export default function Projects() {
             <div 
               key={index} 
               ref={(el:any) => (containerRefs.current[index] = el)}
-              className={`${styles.flipContainer} ${flippedIndex === index ? (index === 2 ? styles.flipped360 : styles.flipped) : ''} max-w-xs md:max-w-sm lg:max-w-md`} 
+              className={`${styles.flipContainer} ${flippedIndex === index ? (index !== 2 ? styles.flipped : '') : ''} ${flipped && index === 2 ? styles.flipped360 : ''} max-w-xs md:max-w-sm lg:max-w-md`} 
               onClick={() => handleFlip(index)}
             >
               <div className={styles.flipper}>
@@ -67,7 +69,7 @@ export default function Projects() {
                   />
                 </div>
                 <div className={styles.back}>
-                  <div onClick={(e) => e.stopPropagation()} /* Stop event propagation to prevent card from closing */>
+                  <div onClick={(e) => e.stopPropagation()}>
                     <Image
                       src="/backofthecard.svg"
                       height={600}
@@ -87,7 +89,7 @@ export default function Projects() {
                         />
                       </a>
                       <a href={projectLinks[index].live} target="_blank" className="absolute right-12 xl:right-16 bottom-4 md:bottom-8 ">
-                      <Image 
+                        <Image 
                           src="/live.svg" 
                           alt="Live" 
                           width={40} 
