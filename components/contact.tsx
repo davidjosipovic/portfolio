@@ -17,7 +17,7 @@ export default function Contact() {
             If you want to reach me, send me a
           </p>
           <div className="flex gap-4 xl:gap-16 justify-center  h-10 pt-1">
-            <Link href={"/"}>
+            <Link target="_blank" href={"https://github.com/davidjosipovic"}>
               <Image
                 src="/github-mark.png"
                 alt="GitHub"
@@ -28,7 +28,7 @@ export default function Contact() {
             </Link>
 
             <p className="text-md 2xl:text-2xl z-20"> message.</p>
-            <Link href={"/"}>
+            <Link target="_blank" href={"https://www.linkedin.com/in/david-josipovi%C4%87-84a379203/"}>
               <Image
                 src="/LI-In-Bug.png"
                 alt="Linkedin"

@@ -2,6 +2,7 @@
 import { useState, useEffect, useRef } from "react";
 import Image from "next/image";
 import styles from './projects.module.css';
+import Link from "next/link";
 
 export default function Projects() {
   const [flippedIndex, setFlippedIndex] = useState<number | null>(null);
@@ -79,7 +80,7 @@ export default function Projects() {
                     />
                     <p className="text-white text-center text-md md:text-xl xl:text-2xl">{backTexts[index]}</p>
                     <div className="text-center">
-                      <a href={projectLinks[index].github} target="_blank" className="mr-2 absolute left-12 xl:left-16 bottom-4 flex md:bottom-8">
+                      <Link href={projectLinks[index].github} target="_blank" className="mr-2 absolute left-12 xl:left-16 bottom-4 flex md:bottom-8">
                         <Image 
                           src="/github-mark-white.svg" 
                           alt="GitHub" 
@@ -87,8 +88,8 @@ export default function Projects() {
                           height={40} 
                           className="inline-block md:scale-125 xl:scale-150 opacity-50 hover:opacity-100 active:opacity-100"
                         />
-                      </a>
-                      <a href={projectLinks[index].live} target="_blank" className="absolute right-12 xl:right-16 bottom-4 md:bottom-8 ">
+                      </Link>
+                      <Link href={projectLinks[index].live} target="_blank" className="absolute right-12 xl:right-16 bottom-4 md:bottom-8 ">
                         <Image 
                           src="/live.svg" 
                           alt="Live" 
@@ -96,7 +97,7 @@ export default function Projects() {
                           height={40} 
                           className="inline-block md:scale-125 xl:scale-150 opacity-50 hover:opacity-100 active:opacity-100"
                         />
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>

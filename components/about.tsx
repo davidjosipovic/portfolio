@@ -41,7 +41,7 @@ export default function About() {
           frameworks.
         </p></div>
         
-        <div className="relative ml-auto mr-auto xl:w-2/5 xl:h-2/5  ">
+        <div className="relative ml-auto mr-auto md:w-3/5 xl:w-2/5 xl:h-2/5  ">
           <Image
             src="/tech_circle.png"
             height={800}

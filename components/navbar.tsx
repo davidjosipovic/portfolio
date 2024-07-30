@@ -94,6 +94,7 @@ export default function Navbar() {
         </li>
         <li className="p-4 md:p-0">
           <Linknext
+          target="_blank"
             href="/CV.pdf"
             className="cursor-pointer p-2 rounded-2xl hover:text-dark-blue hover:bg-light-blue transition duration-300 ease-in-out delay-50"
             onClick={() => setMenuOpen(false)}
