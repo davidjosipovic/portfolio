@@ -20,9 +20,9 @@ export default function About() {
 
   return (
     <section className="px-12 py-20 z-10 relative bg-white text-dark-blue ">
-      <div className="container mx-auto lg:px-40 flex flex-col xl:flex-row">
+      <div id="about" className="container mx-auto lg:px-40 flex flex-col xl:flex-row lg:py-32">
         <div className="xl:w-1/2 pr-8">
-        <h1 id="about" className="text-4xl font-bold pb-4">
+        <h1  className="text-4xl font-bold pb-4">
           about me
         </h1>
         <p className="text-xl pb-4 pt-2">
