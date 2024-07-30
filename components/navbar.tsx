@@ -13,7 +13,7 @@ export default function Navbar() {
 
   return (
     <nav
-      className={`fixed top-0 w-full flex justify-between text-light-blue items-center z-20 py-2 font-bold bg-dark-blue px-12`}
+      className={`fixed top-0 w-full flex justify-between text-light-blue items-center z-20 py-2 font-bold bg-dark-blue px-8`}
     >
       <div className={`${rock_salt.className} text-2xl py-1`}>daviD</div>
       <div className="md:hidden">

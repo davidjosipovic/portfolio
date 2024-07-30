@@ -4,7 +4,7 @@ import { Link, animateScroll as scroll } from "react-scroll";
 
 export default function Hero() {
   return (
-    <section className="px-12 py-16 pt-28 z-10 relative bg-light-blue ">
+    <section className="px-8 py-16 pt-28 z-10 relative bg-light-blue ">
       <div className="container mx-auto lg:px-40 lg:py-32">
         <h1
           id="hero"
