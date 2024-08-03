@@ -5,7 +5,7 @@ import { Link, animateScroll as scroll } from "react-scroll";
 export default function Hero() {
   return (
     <section className="px-8 py-16 pt-28 z-10 relative bg-light-blue ">
-      <div className="container mx-auto lg:px-40 lg:py-32">
+      <div className="container mx-auto md:py-20 lg:px-40 lg:py-32">
         <h1
           id="hero"
           className=" text-4xl font-bold text-dark-blue leading-normal"
@@ -16,9 +16,8 @@ export default function Hero() {
           My name is David Josipović.
         </h1>
         <p className="text-xl text-black pb-4 pt-2 ">
-          I’m a software engineer specializing in building exceptional digital
-          experiences. Currently, I’m focused on building amazing products using{" "}
-          <span className="text-white">Next.js.</span>
+        I am a web developer based in <span className="text-white">Croatia</span> with a passion for designing{" "}
+          web apps, dynamic websites, and interactive user interfaces.
         </p>
         <Link
           to="projects"

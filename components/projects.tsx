@@ -47,7 +47,7 @@ export default function Projects() {
 
   return (
     <section className="px-8 py-16 z-10 relative mb-[380px] sm:mb-[350px] md:mb-[350px] lg:mb-[400px] 2xl:mb-[500px] bg-light-blue">
-      <div id="projects" className="container mx-auto lg:py-16">
+      <div id="projects" className="container mx-auto lg:py-16 md:py-10">
         <h1  className="text-4xl text-dark-blue font-bold leading-normal pb-6 text-center">
           my projects
         </h1>

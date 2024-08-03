@@ -52,7 +52,7 @@ export default function Navbar() {
         </button>
       </div>
       <ul
-        className={`flex-col md:flex md:flex-row md:gap-4 absolute md:static pr-8 top-12 right-0 w-full md:w-auto bg-dark-blue md:bg-transparent  text-right ${
+        className={`flex-col md:flex md:flex-row md:gap-4 absolute md:static pr-4 md:pr-0 top-12 right-0 w-full md:w-auto bg-dark-blue md:bg-transparent  text-right ${
           menuOpen ? "block" : "hidden"
         }`}
       >
