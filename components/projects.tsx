@@ -10,7 +10,7 @@ export default function Projects() {
   const containerRefs = useRef<(HTMLDivElement | null)[]>([]);
 
   const handleFlip = (index: number) => {
-    if (index !== 2) {
+    if (index !== 3) {
       setFlippedIndex(prevIndex => (prevIndex === index ? null : index));
     } else {
       setFlipped(prevFlipped => !prevFlipped);
@@ -36,12 +36,14 @@ export default function Projects() {
   const backTexts = [
     "myGameList",
     "German Syllable Splitter",
+    "Game Recommender Bot",
     "Nothing to see here"
   ];
 
   const projectLinks = [
     { github: "https://github.com/davidjosipovic/myGameList", live: "https://mygamelistdj.vercel.app" },
     { github: "https://github.com/davidjosipovic/german-syllable-splitter", live: "https://german-syllable-splitter.vercel.app" },
+    { github: "https://github.com/davidjosipovic/game-recommender-bot", live: "https://game-recommender-bot.vercel.app" },
     { github: "https://github.com/NoProject", live: "#" }
   ];
 
@@ -52,11 +54,11 @@ export default function Projects() {
           my projects
         </h1>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:items-center">
-          {['/mygamelist_banner.svg', '/germansyllablesplitter_banner.svg', '/inprogress_banner.svg'].map((src, index) => (
+          {['/mygamelist_banner.svg', '/germansyllablesplitter_banner.svg','/gamerecommenderbot_banner.svg', '/inprogress_banner.svg'].map((src, index) => (
             <div 
               key={index} 
               ref={(el:any) => (containerRefs.current[index] = el)}
-              className={`${styles.flipContainer} ${flippedIndex === index ? (index !== 2 ? styles.flipped : '') : ''} ${flipped && index === 2 ? styles.flipped360 : ''} max-w-xs md:max-w-sm lg:max-w-md`} 
+              className={`${styles.flipContainer} ${flippedIndex === index ? (index !== 3 ? styles.flipped : '') : ''} ${flipped && index === 3 ? styles.flipped360 : ''} max-w-xs md:max-w-sm lg:max-w-md`} 
               onClick={() => handleFlip(index)}
             >
               <div className={styles.flipper}>

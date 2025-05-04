@@ -38,7 +38,7 @@ export default function About() {
         
         <div className="relative ml-auto mr-auto md:w-3/5 xl:w-2/5 xl:h-2/5  ">
           <Image
-            src="/tech_circle.png"
+            src="/tech_circle.svg"
             height={800}
             width={800}
             alt="Tech Circle"
